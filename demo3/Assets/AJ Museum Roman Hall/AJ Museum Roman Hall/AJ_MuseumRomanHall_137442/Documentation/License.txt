@@ -1,0 +1,51 @@
+MARKETPLACE END USER LICENSE AGREEMENT 
+Store Staff
+
+
+
+
+FOR RENDEROSITY MARKETPLACE ITEMS
+
+GENERAL RESTRICTIONS AND TERMS OF USE: 
+ 
+
+It is the Buyer's responsibility to read and understand this license (the "License";). If you are unsure about anything in this License, please send an email to copyrights@renderosity.com before using any Renderosity files.
+
+This is a legal and binding agreement between you (the “Buyer”) and Renderosity MarketPlace, ("Renderosity"). By installing, downloading, copying, or otherwise using any Renderosity files (the "Product"), you have conclusively accepted all of the terms and conditions of this License
+
+Purchase of the Product from Renderosity grants the Buyer a limited, non-exclusive, non-transferable license to use the contents of the encapsulating zip file. The Buyer may use the Product commercially in the form of rendered images but may not distribute the Product or any of the Product’s files. The Artist (Author) retains all copyrights to the files. The Buyer shall not copy, modify, reverse compile, or reverse engineer the Product, or sell, sublicense, rent, or transfer the Product to any third party.
+
+
+
+This License does not grant permission to produce a real, tangible replica of the 3D mesh/model/product acquired. An additional license for production rights may be purchased by contacting Renderosity and will be subject to negotiation and approval by the vendor. Renderosity will contact the vendor on the Buyer's behalf.
+
+The Buyer shall not redistribute the Product, in whole or in part, in any file format for sale or for free. The Buyer shall not store the Product any place where it could be used by another person or party (whether it is on a network or on the Internet). The Buyer shall not convert or recreate the Product to any other media format and re-distribute the files, regardless of whether it is for sale or free. The Buyer shall not use the Product in such a way that the original materials could be extracted. Products sold at Renderosity shall not be used for illegal purposes
+
+The Buyer may copyright any newly created rendered images using the purchased, original Product files, provided the original Product files remain protected from being extracted from the derivative work. The Buyer may use the Product in rendered images for any personal or commercial projects, as long as the Artist's work is protected from extraction and the Buyer has not violated any other terms of the License. The Buyer may backup copies on hard drives, CD or DVD of the zip file for personal archival purposes only. The Buyer may not store files online. For Merchant Resource Products, additional permissions or limitations of rights will be specified in of each Product's readme file. Software programs and utilities may have an additional license from the company or vendor that developed it. The Buyer agrees to be bound by the additional permissions and limitations contained in the Merchant Resource Products and Software Programs or utilities. For any product to be considered a Merchant Resource, Software program or utility, it must be clearly stated as such.
+
+The Buyer retains this License, even if the Artist stops selling the work at a later date, or decides to charge a different price.
+
+OWNERSHIP:
+The Artist has verified that all items in the zip file are his/her own original work. Any components of the Product containing work from third parties require documented proof of rights to use, and are on file at Renderosity. All Renderosity Artists represent and warrant that they legally possess the power to grant the Buyer this License for all enclosed materials. 
+
+Renderosity or the Artist may revoke this License upon receipt of information that the Product is being used in violation of any copyright laws or it is shown that the Buyer has violated any of the terms and conditions above. Upon receipt of notice that the Buyer has violated any copyright laws or the terms or conditions of the License, the Buyer shall immediately delete all Product files, both in original and derivative form, contained in the notice. 
+
+If the Artist shows that any of the original material can be extracted from the Buyer's derivative work, the Artist may require both the original and derivative work, and all copies thereof, to be deleted. The buyer may be banned from the site, and downloads may no longer be available. Upon receipt of such a demand, the Buyer shall immediately delete all Product files, both in original and derivative form, contained in the notice. 
+
+In the event the Buyer is not satisfied with the Product, a refund may be issued based upon Renderosity's refund policy. Issuing refunds is at the discretion of the Artist and/or the Renderosity MarketPlace staff. Refunds will be issued only after the Buyer has worked with the Artist to correct the problem. If a refund is issued, the Buyer must delete all copyright protected Product files on his/her computer and any creation that was made using the Product. 
+
+NO WARRANTY ON PRODUCT:
+THE PRODUCT AND RELATED SERVICES ARE WARRANTED, IF AT ALL, ONLY ACCORDING TO THE EXPRESS TERMS HEREOF. EXCEPT AS WARRANTED HEREIN, RENDEROSITY HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE PRODUCT. THE PRODUCT IS LICENSED "AS IS" WITHOUT WARRANTY OF ANY KIND TO CUSTOMER OR ANY THIRD PARTY, INCLUDING, BUT NOT LIMITED TO, ANY EXPRESS OR IMPLIED WARRANTIES OF MERCHANTABILITY OF THE PRODUCT, FITNESS FOR THE BUYER'S PURPOSE OR SYSTEM INTEGRATION; INFORMATIONAL CONTENT OR ACCURACY; NON-INFRINGEMENT; AND TITLE. THE BUYER AGREES THAT ANY EFFORTS BY RENDEROSITY TO MODIFY ITS GOODS OR SERVICES SHALL NOT BE DEEMED A WAIVER OF THESE LIMITATIONS, AND THAT ANY RENDEROSITY WARRANTIES SHALL NOT BE DEEMED TO HAVE FAILED OF THEIR ESSENTIAL PURPOSE. THE BUYER FURTHER AGREES THAT RENDEROSITY SHALL NOT BE LIABLE TO THE BUYER OR ANY THIRD PARTY FOR ANY LOSS OF PROFITS, LOSS OF USE, INTERRUPTION OF BUSINESS, OR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY KIND WHETHER UNDER THE LICENSE OR OTHERWISE, EVEN IF RENDEROSITY WAS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR WAS GROSSLY NEGLIGENT. Some jurisdictions may not permit the exclusion or limitation of liability for consequential or incidental damages, and, as such, some portion of the above limitation may not be applicable. In such jurisdictions, Renderosity’s liability shall be limited to the greatest extent permitted by applicable law. 
+
+INDEMNIFICATION:
+The Buyer hereby agrees to indemnify Renderosity and its directors, officers, agents, and employees and to hold each of them harmless in all respects, including costs and attorney’s fees, from and against any and all claims, demands, suits, or causes of action of whatever kind or nature and resulting settlements, awards, or judgments resulting from any breach by the Buyer of the License. This indemnity shall survive the termination of the License. 
+
+The License shall be governed by the laws of the State of Tennessee. For the purposes of the License, each party hereby consents to the personal jurisdiction and exclusive venue of any court located in Rutherford County, Tennessee. 
+
+Force Majeure:
+No party will be liable for and shall be excused from any failure to deliver or perform or for delay in delivery or performance due to causes beyond its reasonable control, including but not limited to, work stoppages, shortages, civil disturbances, terrorist actions, transportation problems, interruptions or power or communications, failure or suppliers or subcontractors, natural disasters or other acts of God. 
+
+SEVERABILITY:
+The provisions of this License are severable. If any provision of the License is for any reason held to be invalid, illegal, or unenforceable, the remaining provisions of this License shall be unimpaired and continue in full force and effect, and, to the maximum extent permitted by law, the invalid, illegal, or unenforceable provision shall be replaced by a mutually acceptable provision, which, being valid, legal, and enforceable, comes closest to the intention of the parties underlying the invalid, illegal, or unenforceable provision. 
+
+ 

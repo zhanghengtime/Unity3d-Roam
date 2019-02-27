@@ -1,0 +1,6655 @@
+{
+	version
+	{
+		number 6
+	}
+	figureResFile :Runtime:Geometries:AppleJack:AJ_Roman_Hall:AJ_Chariot.obj
+	actor BODY:2
+	{
+	}
+	controlProp GoalCenterOfMass:2
+	{
+	}
+	controlProp CenterOfMass:2
+	{
+	}
+	actor chariot:2
+	{
+		storageOffset 0 0 0
+		geomHandlerGeom 13 chariot
+	}
+	figureResFile :Runtime:Geometries:AppleJack:AJ_Roman_Hall:AJ_Chariot.obj
+	actor BODY:2
+	{
+		name BODY
+		off
+		bend 1
+		dynamicsLock 1
+		hidden 0
+		addToMenu 1
+		castsShadow 1
+		includeInDepthCue 1
+		useZBuffer 1
+		parent UNIVERSE
+		creaseAngle 80
+		channels
+		{
+			groups
+			{
+				groupNode Transform
+				{
+					parmNode scale
+					parmNode xScale
+					parmNode yScale
+					parmNode zScale
+					parmNode yrot
+					parmNode xrot
+					parmNode zrot
+					parmNode xtran
+					parmNode ytran
+					parmNode ztran
+				}
+			}
+			zOffsetA zOffset
+			{
+				name zOffset
+				initValue 0
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue 0
+			}
+			yOffsetA yOffset
+			{
+				name yOffset
+				initValue 0.74
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue 0.74
+			}
+			xOffsetA xOffset
+			{
+				name xOffset
+				initValue 0
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue 0
+			}
+			propagatingScale scale
+			{
+				name scale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			propagatingScaleX xScale
+			{
+				name xScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			propagatingScaleY yScale
+			{
+				name yScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			propagatingScaleZ zScale
+			{
+				name zScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			rotateY yrot
+			{
+				name yrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			rotateX xrot
+			{
+				name xrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			rotateZ zrot
+			{
+				name zrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			translateX xtran
+			{
+				name xtran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.001
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			translateY ytran
+			{
+				name ytran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.001
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			translateZ ztran
+			{
+				name ztran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.001
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			xOffsetB xTranB
+			{
+				name xTranB
+				initValue -0
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue -0
+			}
+			yOffsetB yTranB
+			{
+				name yTranB
+				initValue -0.74
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue -0.74
+			}
+			zOffsetB zTranB
+			{
+				name zTranB
+				initValue -0
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue -0
+			}
+		}
+		endPoint 0 0.74 0.25
+		origin 0 0.74 0
+		orientation 0 0 0
+		displayOrigin 0
+		displayMode USEPARENT
+		customMaterial 0
+		locked 0
+		backfaceCull 0
+		visibleInReflections 1
+		visibleInRender 1
+		displacementBounds 0
+		shadingRate 0.2
+		smoothPolys 1
+	}
+	controlProp GoalCenterOfMass:2
+	{
+		name GoalCenterOfMass
+		off
+		bend 1
+		dynamicsLock 1
+		hidden 1
+		addToMenu 0
+		castsShadow 0
+		includeInDepthCue 0
+		useZBuffer 1
+		parent BODY:2
+		creaseAngle 80
+		channels
+		{
+			rotateY yRotate
+			{
+				name yrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			rotateX xRotate
+			{
+				name xrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			rotateZ zRotate
+			{
+				name zrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			scale Scale
+			{
+				name scale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			scaleX xScale
+			{
+				name xScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			scaleY yScale
+			{
+				name yScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			scaleZ zScale
+			{
+				name zScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			translateX xTran
+			{
+				name xtran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.002
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			translateY yTran
+			{
+				name ytran
+				initValue 0
+				hidden 0
+				forceLimits 1
+				min 0
+				max 0
+				trackingScale 0.002
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			translateZ zTran
+			{
+				name ztran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.002
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+		}
+		endPoint 0 0 -0.1
+		origin 0 0 0
+		orientation 0 0 0
+		displayOrigin 0
+		displayMode USEPARENT
+		customMaterial 1
+		material Preview
+		{
+			KdColor 0.814142 0.701559 0.200262 1
+			KaColor 0 0 0 1
+			KsColor 0.0148564 0.0564959 0.168883 1
+			TextureColor 1 1 1 1
+			NsExponent 50
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 1
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap NO_MAP
+			bumpMap NO_MAP
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+		}
+		locked 0
+		backfaceCull 0
+		visibleInReflections 0
+		visibleInRender 1
+		displacementBounds 0
+		shadingRate 0.2
+		smoothPolys 1
+	}
+	controlProp CenterOfMass:2
+	{
+		name CenterOfMass
+		off
+		bend 1
+		dynamicsLock 1
+		hidden 0
+		addToMenu 1
+		castsShadow 0
+		includeInDepthCue 0
+		useZBuffer 0
+		parent GoalCenterOfMass:2
+		creaseAngle 80
+		channels
+		{
+			rotateY yRotate
+			{
+				name yrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			rotateX xRotate
+			{
+				name xrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			rotateZ zRotate
+			{
+				name zrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			scale Scale
+			{
+				name scale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			scaleX xScale
+			{
+				name xScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			scaleY yScale
+			{
+				name yScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			scaleZ zScale
+			{
+				name zScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.001
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			translateX xTran
+			{
+				name xtran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.002
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			translateY yTran
+			{
+				name ytran
+				initValue 0
+				hidden 0
+				forceLimits 1
+				min 0
+				max 0
+				trackingScale 0.002
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			translateZ zTran
+			{
+				name ztran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.002
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+		}
+		endPoint 0 0 -0.1
+		origin 0 0 0
+		orientation 0 0 0
+		displayOrigin 0
+		displayMode EDGESONLY
+		customMaterial 1
+		material Preview
+		{
+			KdColor 0.820917 0.00656148 0.27192 1
+			KaColor 0 0 0 1
+			KsColor 0.00207526 0.137449 0.198633 1
+			TextureColor 1 1 1 1
+			NsExponent 50
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 1
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap NO_MAP
+			bumpMap NO_MAP
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+		}
+		locked 0
+		backfaceCull 0
+		visibleInReflections 0
+		visibleInRender 1
+		displacementBounds 0
+		shadingRate 0.2
+		smoothPolys 1
+	}
+	actor chariot:2
+	{
+		name chariot
+		on
+		bend 1
+		dynamicsLock 1
+		hidden 0
+		addToMenu 1
+		castsShadow 1
+		includeInDepthCue 1
+		useZBuffer 1
+		parent BODY:2
+		creaseAngle 80
+		channels
+		{
+			groups
+			{
+				groupNode Transform
+				{
+					parmNode taper
+					parmNode scale
+					parmNode xScale
+					parmNode yScale
+					parmNode zScale
+					parmNode yrot
+					parmNode xrot
+					parmNode zrot
+					parmNode xtran
+					parmNode ytran
+					parmNode ztran
+				}
+			}
+			taperY taper
+			{
+				name taper
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.04
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			zOffsetA zOffset
+			{
+				name zOffset
+				initValue -2.66228
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue -2.66228
+			}
+			yOffsetA yOffset
+			{
+				name yOffset
+				initValue 0.388965
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue 0.388965
+			}
+			xOffsetA xOffset
+			{
+				name xOffset
+				initValue 0.170093
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue 0.170093
+			}
+			scale scale
+			{
+				name scale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.1
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			scaleX xScale
+			{
+				name xScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.1
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			scaleY yScale
+			{
+				name yScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.1
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			scaleZ zScale
+			{
+				name zScale
+				initValue 1
+				hidden 0
+				forceLimits 0
+				min 0.1
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 0
+					k 0  1
+				}
+				interpStyleLocked 0
+			}
+			rotateY yrot
+			{
+				name yrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -360000
+				max 360000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			rotateX xrot
+			{
+				name xrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -360000
+				max 360000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			rotateZ zrot
+			{
+				name zrot
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -360000
+				max 360000
+				trackingScale 1
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			xOffsetB xTranB
+			{
+				name xTranB
+				initValue -0.170093
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue -0.170093
+			}
+			yOffsetB yTranB
+			{
+				name yTranB
+				initValue -0.388965
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue -0.388965
+			}
+			zOffsetB zTranB
+			{
+				name zTranB
+				initValue 2.66228
+				hidden 1
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.004
+				keys
+				{
+					static 1
+					k 0  0
+				}
+				interpStyleLocked 0
+				staticValue 2.66228
+			}
+			translateX xtran
+			{
+				name xtran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.001
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			translateY ytran
+			{
+				name ytran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.001
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+			translateZ ztran
+			{
+				name ztran
+				initValue 0
+				hidden 0
+				forceLimits 0
+				min -100000
+				max 100000
+				trackingScale 0.001
+				keys
+				{
+					static 0
+					k 0  0
+				}
+				interpStyleLocked 0
+			}
+		}
+		endPoint 0.170093 0.288965 -2.66228
+		origin 0.170093 0.388965 -2.66228
+		orientation 0 0 0
+		displayOrigin 0
+		displayMode USEPARENT
+		customMaterial 0
+		locked 0
+		backfaceCull 0
+		visibleInReflections 1
+		visibleInRender 1
+		displacementBounds 0
+		shadingRate 0.2
+		smoothPolys 1
+	}
+	figure
+	{
+		name Figure 1
+		root BODY:2
+		addChild GoalCenterOfMass:2
+			BODY:2
+		addChild CenterOfMass:2
+			GoalCenterOfMass:2
+		addChild chariot:2
+			BODY:2
+		defaultPick chariot:2
+		displayOn 1
+		allowsBending 1
+		figureType 1318
+		origFigureType 1318
+		canonType 8
+		conforming 0
+		material silver
+		{
+			KdColor 1 0.984314 0.972549 1
+			KaColor 0.666667 0.666667 0.666667 0.1
+			KsColor 0.666667 0.666667 0.666667 1
+			TextureColor 1 1 1 1
+			NsExponent 10
+			tMin 0
+			tMax 0
+			tExpo 0
+			bumpStrength 0.0787402
+			ksIgnoreTexture 0
+			reflectThruLights 0
+			reflectThruKd 0
+			textureMap NO_MAP
+			bumpMap NO_MAP
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 0.5
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 15 6
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 1 0.984314 0.972549
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Blender"
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.666667 0.666667 0.666667
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 0.7 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0.666667 0.666667 0.666667
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0.1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Reflect"
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 0.5 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 0.0787402 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Math_Functions"
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 0.019685 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Glossy"
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Blinn"
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 13 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "cellular" "Cellular"
+				{
+					name "Cellular"
+					pos 263 153
+					inputsCollapsed 1
+					nodeInput "Color1"
+					{
+						name "Color1"
+						value 0.886275 0.886275 0.886275
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Intensity1"
+					{
+						name "Intensity1"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Color2"
+					{
+						name "Color2"
+						value 0.498039 0.498039 0.498039
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Intensity2"
+					{
+						name "Intensity2"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ScaleX"
+					{
+						name "Scalex"
+						value 0.5 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ScaleY"
+					{
+						name "Scaley"
+						value 20000 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ScaleZ"
+					{
+						name "Scalez"
+						value 0.5 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "RandomColor"
+					{
+						name "RandomColor"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "cellMode"
+					{
+						name "cellMode"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Jitter"
+					{
+						name "Jitter"
+						value 0.2 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Turbulence"
+					{
+						name "Turbulence"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Global_coordinates"
+					{
+						name "Global_coordinates"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Noise_Type"
+					{
+						name "Noise_Type"
+						value 1 0 2
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "color_math" "Color_Math"
+				{
+					name "Color_Math"
+					pos 246 61
+					inputsCollapsed 1
+					nodeInput "Math_Argument"
+					{
+						name "Math_Argument"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Value_1"
+					{
+						name "Value 1"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Cellular"
+						file ""
+					}
+					nodeInput "Value_2"
+					{
+						name "Value 2"
+						value 0.498039 0.65098 0.8
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Fractal_Sum"
+						file ""
+					}
+				}
+				node "fractal_sum" "Fractal_Sum"
+				{
+					name "Fractal_Sum"
+					pos 260 186
+					inputsCollapsed 1
+					nodeInput "x_Index"
+					{
+						name "x scale"
+						value 4 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "y_Index"
+					{
+						name "y scale"
+						value 4 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "z_Index"
+					{
+						name "z scale"
+						value 4 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Octaves"
+					{
+						name "Octaves"
+						value 8 0 20
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bottom"
+					{
+						name "Bottom"
+						value 0.5 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bias"
+					{
+						name "Bias"
+						value 0.5 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gain"
+					{
+						name "Gain"
+						value 0.5 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "reflect" "Reflect"
+				{
+					name "Reflect"
+					pos 260 115
+					inputsCollapsed 1
+					nodeInput "Background"
+					{
+						name "Background"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Quality"
+					{
+						name "Quality"
+						value 0.2 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Diffusion"
+					{
+						name "Softness"
+						value 0 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "blinn" "Blinn"
+				{
+					name "Blinn"
+					pos 262 382
+					inputsCollapsed 1
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 0.666667 0.666667 0.666667
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Eccentricity"
+					{
+						name "Eccentricity"
+						value 0.5 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "SpecularRollOff"
+					{
+						name "SpecularRollOff"
+						value 0.1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflectivity"
+					{
+						name "Reflectivity"
+						value 0.5 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "glossy" "Glossy"
+				{
+					name "Glossy"
+					pos 263 343
+					inputsCollapsed 1
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 0.635294 0.666667 0.658824
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ks"
+					{
+						name "Ks"
+						value 0.3 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Roughness"
+						value 0.1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Sharpness"
+					{
+						name "Sharpness"
+						value 0.1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "math_functions" "Math_Functions"
+				{
+					name "Math_Functions"
+					pos 261 547
+					inputsCollapsed 1
+					nodeInput "Math_Argument"
+					{
+						name "Math_Argument"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Value_1"
+					{
+						name "Value_1"
+						value 2 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Blender"
+						file ""
+					}
+					nodeInput "Value_2"
+					{
+						name "Value_2"
+						value 0 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "noise" "Noise"
+				{
+					name "Noise"
+					pos 272 291
+					inputsCollapsed 1
+					nodeInput "x_Index"
+					{
+						name "x_Index"
+						value 4 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "y_Index"
+					{
+						name "y_Index"
+						value 4 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "z_Index"
+					{
+						name "z_Index"
+						value 4 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "min"
+					{
+						name "min"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "max"
+					{
+						name "max"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+				}
+				node "turbulence" "Turbulence"
+				{
+					name "Turbulence"
+					pos 267 256
+					inputsCollapsed 1
+					nodeInput "x_Index"
+					{
+						name "x scale"
+						value 1.8 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Noise"
+						file ":NO_MAP"
+					}
+					nodeInput "y_Index"
+					{
+						name "y scale"
+						value 1.3 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "z_Index"
+					{
+						name "z scale"
+						value 1.4 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Octaves"
+					{
+						name "Octaves"
+						value 8 0 20
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Bottom"
+					{
+						name "Bottom"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Bias"
+					{
+						name "Bias"
+						value 0.61 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Gain"
+					{
+						name "Gain"
+						value 0.77 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Noise_Type"
+					{
+						name "Noise_Type"
+						value 2 0 2
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+				}
+				node "fbm" "fBm"
+				{
+					name "fBm"
+					pos 264 228
+					inputsCollapsed 1
+					nodeInput "Signed"
+					{
+						name "Signed"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Fractal_Increment"
+					{
+						name "Fractal_Increment"
+						value 0.5 0 4
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Turbulence"
+						file ":NO_MAP"
+					}
+					nodeInput "Frequency_Gap"
+					{
+						name "Frequency_Gap"
+						value 2.186 0 4
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Turbulence"
+						file ":NO_MAP"
+					}
+					nodeInput "Octaves"
+					{
+						name "Octaves"
+						value 2.2 0 20
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "x_Index"
+					{
+						name "x_scale"
+						value 2.4 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "y_Index"
+					{
+						name "y_scale"
+						value 10 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "z_Index"
+					{
+						name "z_scale"
+						value 3 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Bottom"
+					{
+						name "Bottom"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Bias"
+					{
+						name "Bias"
+						value 0.83 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Gain"
+					{
+						name "Gain"
+						value 0.37 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+					nodeInput "Noise_Type"
+					{
+						name "Noise_Type"
+						value 1 0 2
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":NO_MAP"
+					}
+				}
+				node "blender" "Blender"
+				{
+					name "Blender"
+					pos 244 30
+					inputsCollapsed 1
+					nodeInput "Input_1"
+					{
+						name "Input_1"
+						value 0.768628 0.768628 0.768628
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Color_Math"
+						file ""
+					}
+					nodeInput "Input_2"
+					{
+						name "Input_2"
+						value 0.494118 0.494118 0.494118
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "fBm"
+						file ""
+					}
+					nodeInput "Blending"
+					{
+						name "Blending"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material velvet
+		{
+			KdColor 0.82 0.83 0.87 1
+			KaColor 0 0 0 0
+			KsColor 0.15 0.15 0.15 1
+			TextureColor 1 1 1 1
+			NsExponent 100
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 0.12
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr0.jpg"
+			0 0
+			bumpMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr0.jpg"
+			0 0
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 10 10
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 0.82 0.83 0.87
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.15 0.15 0.15
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.01 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0.6 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Velvet"
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 0.12 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 70 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "image_map" "Image_Map"
+				{
+					name "Color_Texture"
+					pos 242 73
+					nodeInput "Image_Source"
+					{
+						name "Image_Source"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr0.jpg"
+					}
+					nodeInput "Auto_Fit"
+					{
+						name "Auto_Fit"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Scale"
+					{
+						name "U_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Scale"
+					{
+						name "V_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Offset"
+					{
+						name "U_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Offset"
+					{
+						name "V_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Coords"
+					{
+						name "Texture_Coords"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Image_Mapped"
+					{
+						name "Image_Mapped"
+						value 4 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Background"
+					{
+						name "Background"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Global_Coordinates"
+					{
+						name "Global_Coordinates"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_U"
+					{
+						name "Mirror_U"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_V"
+					{
+						name "Mirror_V"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Strength"
+					{
+						name "Texture_Strength"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "velvet" "Velvet"
+				{
+					name "Velvet"
+					pos 267 404
+					nodeInput "Velvet_Color"
+					{
+						name "Velvet_Color"
+						value 0.807843 0.109804 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Velvet_Sheen"
+					{
+						name "Velvet_Sheen"
+						value 0.368627 0.12549 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ka"
+					{
+						name "Ka"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Kd"
+					{
+						name "Kd"
+						value 0.5 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ks"
+					{
+						name "Ks"
+						value 0.1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Roughness"
+						value 0.05 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Edginess"
+					{
+						name "Edginess"
+						value 10 0 20
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material decor1
+		{
+			KdColor 0.82 0.83 0.87 1
+			KaColor 0 0 0 1
+			KsColor 0.15 0.15 0.15 1
+			TextureColor 1 1 1 1
+			NsExponent 100
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 0.12
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr19.jpg"
+			0 0
+			bumpMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr3.jpg"
+			0 0
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 0.1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 10 10
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 0.82 0.83 0.87
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.15 0.15 0.15
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.01 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0.6 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Reflect"
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 0.1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 0.12 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map_2"
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 0.199992 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map_2"
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Specular"
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 54 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "image_map" "Image_Map"
+				{
+					name "Color_Texture"
+					pos 256 11
+					nodeInput "Image_Source"
+					{
+						name "Image_Source"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr19.jpg"
+					}
+					nodeInput "Auto_Fit"
+					{
+						name "Auto_Fit"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Scale"
+					{
+						name "U_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Scale"
+					{
+						name "V_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Offset"
+					{
+						name "U_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Offset"
+					{
+						name "V_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Coords"
+					{
+						name "Texture_Coords"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Image_Mapped"
+					{
+						name "Image_Mapped"
+						value 4 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Background"
+					{
+						name "Background"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Global_Coordinates"
+					{
+						name "Global_Coordinates"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_U"
+					{
+						name "Mirror_U"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_V"
+					{
+						name "Mirror_V"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Strength"
+					{
+						name "Texture_Strength"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "image_map" "Image_Map_2"
+				{
+					name "Image_Map_2"
+					pos 245 294
+					inputsCollapsed 1
+					nodeInput "Image_Source"
+					{
+						name "Image_Source"
+						value 2 2 2
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr3.jpg"
+					}
+					nodeInput "Auto_Fit"
+					{
+						name "Auto_Fit"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Scale"
+					{
+						name "U_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Scale"
+					{
+						name "V_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Offset"
+					{
+						name "U_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Offset"
+					{
+						name "V_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Coords"
+					{
+						name "Texture_Coords"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Image_Mapped"
+					{
+						name "Image_Mapped"
+						value 4 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Background"
+					{
+						name "Background"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Global_Coordinates"
+					{
+						name "Global_Coordinates"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_U"
+					{
+						name "Mirror_U"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_V"
+					{
+						name "Mirror_V"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Strength"
+					{
+						name "Texture_Strength"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "reflect" "Reflect"
+				{
+					name "Reflect"
+					pos 249 199
+					nodeInput "Background"
+					{
+						name "Background"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Quality"
+					{
+						name "Quality"
+						value 0.2 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Diffusion"
+					{
+						name "Softness"
+						value 0 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "specular" "Specular"
+				{
+					name "Specular"
+					pos 245 331
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Specular_Value"
+					{
+						name "Specular_Value"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Roughness"
+						value 0.05 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material bronze
+		{
+			KdColor 0.82 0.83 0.87 1
+			KaColor 0 0 0 1
+			KsColor 0.15 0.15 0.15 1
+			TextureColor 1 1 1 1
+			NsExponent 100
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 0.12
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr21.jpg"
+			0 0
+			bumpMap NO_MAP
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 10 10
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 0.82 0.83 0.87
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.15 0.15 0.15
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.01 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0.6 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Glossy"
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 0.12 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Noise"
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 102 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "image_map" "Image_Map"
+				{
+					name "Color_Texture"
+					pos 253 23
+					nodeInput "Image_Source"
+					{
+						name "Image_Source"
+						value 3 3 3
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr21.jpg"
+					}
+					nodeInput "Auto_Fit"
+					{
+						name "Auto_Fit"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Scale"
+					{
+						name "U_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Scale"
+					{
+						name "V_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Offset"
+					{
+						name "U_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Offset"
+					{
+						name "V_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Coords"
+					{
+						name "Texture_Coords"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Image_Mapped"
+					{
+						name "Image_Mapped"
+						value 4 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Background"
+					{
+						name "Background"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Global_Coordinates"
+					{
+						name "Global_Coordinates"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_U"
+					{
+						name "Mirror_U"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_V"
+					{
+						name "Mirror_V"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Strength"
+					{
+						name "Texture_Strength"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "glossy" "Glossy"
+				{
+					name "Glossy"
+					pos 248 288
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ks"
+					{
+						name "Ks"
+						value 0.2 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Roughness"
+						value 0.1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Sharpness"
+					{
+						name "Sharpness"
+						value 0.1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "noise" "Noise"
+				{
+					name "Noise"
+					pos 250 439
+					nodeInput "x_Index"
+					{
+						name "x_Index"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "y_Index"
+					{
+						name "y_Index"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "z_Index"
+					{
+						name "z_Index"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "min"
+					{
+						name "min"
+						value 0.01 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "max"
+					{
+						name "max"
+						value 0.3 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material gold
+		{
+			KdColor 0.980392 0.976471 0.972549 1
+			KaColor 0 0 0 0
+			KsColor 1 0.921569 0.435294 1
+			TextureColor 1 1 1 1
+			NsExponent 10
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 0.012
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap NO_MAP
+			bumpMap NO_MAP
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 2 2
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 0.980392 0.976471 0.972549
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Edge_Blend"
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 1 0.921569 0.435294
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 0.2 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0.6 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 0.012 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 0.0119685 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Specular"
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Glossy"
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 24 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "specular" "Specular"
+				{
+					name "Specular"
+					pos 258 300
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 1 0.792157 0.529412
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Specular_Value"
+					{
+						name "Specular_Value"
+						value 0.74 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Roughness"
+						value 0.04 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "edge_blend" "Edge_Blend"
+				{
+					name "Edge_Blend"
+					pos 229 8
+					nodeInput "Inner_Color"
+					{
+						name "Inner_Color"
+						value 1 0.8 0.435294
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Sphere_Map"
+						file ""
+					}
+					nodeInput "Outer_Color"
+					{
+						name "Outer_Color"
+						value 0.556863 0.309804 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Attenuation"
+					{
+						name "Attenuation"
+						value 0.4 0 20
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "sphere_map" "Sphere_Map"
+				{
+					name "Sphere_Map"
+					pos 239 100
+					nodeInput "Color"
+					{
+						name "Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "v_Texture_Coordinate"
+						file ""
+					}
+					nodeInput "Rotation"
+					{
+						name "Rotation"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "t" "v_Texture_Coordinate"
+				{
+					name "v_Texture_Coordinate"
+					pos 248 184
+				}
+				node "glossy" "Glossy"
+				{
+					name "Glossy"
+					pos 260 410
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 1 0.862745 0.623529
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ks"
+					{
+						name "Ks"
+						value 0.69 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Roughness"
+						value 0.0100001 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Sharpness"
+					{
+						name "Sharpness"
+						value 0.02 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material copper1
+		{
+			KdColor 0.82 0.83 0.87 1
+			KaColor 0 0 0 1
+			KsColor 0.15 0.15 0.15 1
+			TextureColor 1 1 1 1
+			NsExponent 100
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 0.12
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr20.jpg"
+			0 0
+			bumpMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr20.jpg"
+			0 0
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 10 10
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 0.82 0.83 0.87
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.15 0.15 0.15
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.01 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0.6 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Glossy"
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 0.12 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 100 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "image_map" "Image_Map"
+				{
+					name "Color_Texture"
+					pos 300 10
+					nodeInput "Image_Source"
+					{
+						name "Image_Source"
+						value 4 4 4
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr20.jpg"
+					}
+					nodeInput "Auto_Fit"
+					{
+						name "Auto_Fit"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Scale"
+					{
+						name "U_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Scale"
+					{
+						name "V_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Offset"
+					{
+						name "U_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Offset"
+					{
+						name "V_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Coords"
+					{
+						name "Texture_Coords"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Image_Mapped"
+					{
+						name "Image_Mapped"
+						value 4 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Background"
+					{
+						name "Background"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Global_Coordinates"
+					{
+						name "Global_Coordinates"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_U"
+					{
+						name "Mirror_U"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_V"
+					{
+						name "Mirror_V"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Strength"
+					{
+						name "Texture_Strength"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "glossy" "Glossy"
+				{
+					name "Glossy"
+					pos 201 241
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ks"
+					{
+						name "Ks"
+						value 0.51 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Roughness"
+						value 0.1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Sharpness"
+					{
+						name "Sharpness"
+						value 0.1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material wood1
+		{
+			KdColor 0.82 0.83 0.87 1
+			KaColor 0 0 0 1
+			KsColor 0.15 0.15 0.15 1
+			TextureColor 1 1 1 1
+			NsExponent 100
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 1
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr22.jpg"
+			0 0
+			bumpMap NO_MAP
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 10 10
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 0.82 0.83 0.87
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.15 0.15 0.15
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.01 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0.6 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Blinn"
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 99 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "image_map" "Image_Map"
+				{
+					name "Color_Texture"
+					pos 300 10
+					nodeInput "Image_Source"
+					{
+						name "Image_Source"
+						value 5 5 5
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr22.jpg"
+					}
+					nodeInput "Auto_Fit"
+					{
+						name "Auto_Fit"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Scale"
+					{
+						name "U_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Scale"
+					{
+						name "V_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Offset"
+					{
+						name "U_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Offset"
+					{
+						name "V_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Coords"
+					{
+						name "Texture_Coords"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Image_Mapped"
+					{
+						name "Image_Mapped"
+						value 4 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Background"
+					{
+						name "Background"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Global_Coordinates"
+					{
+						name "Global_Coordinates"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_U"
+					{
+						name "Mirror_U"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_V"
+					{
+						name "Mirror_V"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Strength"
+					{
+						name "Texture_Strength"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "blinn" "Blinn"
+				{
+					name "Blinn"
+					pos 262 350
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Eccentricity"
+					{
+						name "Eccentricity"
+						value 0.5 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "SpecularRollOff"
+					{
+						name "SpecularRollOff"
+						value 0.1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflectivity"
+					{
+						name "Reflectivity"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material wood2
+		{
+			KdColor 0.82 0.83 0.87 1
+			KaColor 0 0 0 1
+			KsColor 0.15 0.15 0.15 1
+			TextureColor 1 1 1 1
+			NsExponent 100
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 0.12
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr23.jpg"
+			0 0
+			bumpMap ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr23.jpg"
+			0 0
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 10 10
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 0.82 0.83 0.87
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.15 0.15 0.15
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.01 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0.6 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 0.12 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Image_Map"
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 98 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "image_map" "Image_Map"
+				{
+					name "Color_Texture"
+					pos 300 10
+					nodeInput "Image_Source"
+					{
+						name "Image_Source"
+						value 6 6 6
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ":Runtime:textures:AppleJack:AJ_Roman_Hall:rr23.jpg"
+					}
+					nodeInput "Auto_Fit"
+					{
+						name "Auto_Fit"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Scale"
+					{
+						name "U_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Scale"
+					{
+						name "V_Scale"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "U_Offset"
+					{
+						name "U_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "V_Offset"
+					{
+						name "V_Offset"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Coords"
+					{
+						name "Texture_Coords"
+						value 1 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Image_Mapped"
+					{
+						name "Image_Mapped"
+						value 4 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Background"
+					{
+						name "Background"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Global_Coordinates"
+					{
+						name "Global_Coordinates"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_U"
+					{
+						name "Mirror_U"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Mirror_V"
+					{
+						name "Mirror_V"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Texture_Strength"
+					{
+						name "Texture_Strength"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material chrome
+		{
+			KdColor 1 0.984314 0.972549 1
+			KaColor 0.666667 0.666667 0.666667 0.1
+			KsColor 0.666667 0.666667 0.666667 1
+			TextureColor 1 1 1 1
+			NsExponent 10
+			tMin 0
+			tMax 0
+			tExpo 0
+			bumpStrength 0.0393701
+			ksIgnoreTexture 0
+			reflectThruLights 0
+			reflectThruKd 0
+			textureMap NO_MAP
+			bumpMap NO_MAP
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 2 8
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 1 0.984314 0.972549
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Cellular_2"
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.666667 0.666667 0.666667
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 0.7 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0.666667 0.666667 0.666667
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0.1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 0.0393701 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 0.019685 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 0.572549 0.572549 0.572549
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Glossy"
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 0.658824 0.658824 0.658824
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node "Blinn"
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 13 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "cellular" "Cellular_2"
+				{
+					name "Cellular_2"
+					pos 231 49
+					nodeInput "Color1"
+					{
+						name "Color1"
+						value 0.776471 0.772549 0.756863
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Intensity1"
+					{
+						name "Intensity1"
+						value 0.510001 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Color2"
+					{
+						name "Color2"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Intensity2"
+					{
+						name "Intensity2"
+						value 0.71 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ScaleX"
+					{
+						name "Scalex"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ScaleY"
+					{
+						name "Scaley"
+						value 10 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ScaleZ"
+					{
+						name "Scalez"
+						value 30 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "RandomColor"
+					{
+						name "RandomColor"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "cellMode"
+					{
+						name "cellMode"
+						value 3 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Jitter"
+					{
+						name "Jitter"
+						value 0.47 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Turbulence"
+					{
+						name "Turbulence"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Global_coordinates"
+					{
+						name "Global_coordinates"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Noise_Type"
+					{
+						name "Noise_Type"
+						value 1 0 2
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "glossy" "Glossy"
+				{
+					name "Glossy"
+					pos 251 498
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ks"
+					{
+						name "Ks"
+						value 0.47 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Roughness"
+						value 0.01 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Sharpness"
+					{
+						name "Sharpness"
+						value 0.2 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+				node "blinn" "Blinn"
+				{
+					name "Blinn"
+					pos 221 364
+					nodeInput "Specular_Color"
+					{
+						name "Specular_Color"
+						value 0.647059 0.647059 0.647059
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Eccentricity"
+					{
+						name "Eccentricity"
+						value 0.05 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "SpecularRollOff"
+					{
+						name "SpecularRollOff"
+						value 0.15 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflectivity"
+					{
+						name "Reflectivity"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Normals_Forward"
+					{
+						name "Normals_Forward"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material Preview
+		{
+			KdColor 0.586535 0.533708 0.887478 1
+			KaColor 0 0 0 1
+			KsColor 0.113218 0.166723 0.0104312 1
+			TextureColor 1 1 1 1
+			NsExponent 50
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 1
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap NO_MAP
+			bumpMap NO_MAP
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 10 10
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 0.586535 0.533708 0.887478
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.113218 0.166723 0.0104312
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.02 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0.6 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 107 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		material def_surf_mat
+		{
+			KdColor 0.82 0.83 0.87 1
+			KaColor 0 0 0 1
+			KsColor 0.15 0.15 0.15 1
+			TextureColor 1 1 1 1
+			NsExponent 100
+			tMin 0
+			tMax 0
+			tExpo 0.6
+			bumpStrength 1
+			ksIgnoreTexture 0
+			reflectThruLights 1
+			reflectThruKd 0
+			textureMap NO_MAP
+			bumpMap NO_MAP
+			reflectionMap NO_MAP
+			transparencyMap NO_MAP
+			ReflectionColor 1 1 1 1
+			reflectionStrength 1
+			shaderTree
+			{
+				node "poser" "PoserSurface"
+				{
+					name "PoserSurface"
+					pos 10 10
+					showPreview 1
+					nodeInput "Diffuse_Color"
+					{
+						name "Diffuse_Color"
+						value 0.82 0.83 0.87
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Diffuse_Value"
+					{
+						name "Diffuse_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Color"
+					{
+						name "Specular_Color"
+						value 0.15 0.15 0.15
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Highlight_Value"
+					{
+						name "Specular_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Roughness"
+					{
+						name "Highlight_Size"
+						value 0.01 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Color"
+					{
+						name "Ambient_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Ambient_Value"
+					{
+						name "Ambient_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Max"
+					{
+						name "Transparency"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Min"
+					{
+						name "Transparency_Edge"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Transparency_Falloff"
+					{
+						name "Transparency_Falloff"
+						value 0.6 0 100
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Color"
+					{
+						name "Translucence_Color"
+						value 0 0 0
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Translucence_Value"
+					{
+						name "Translucence_Value"
+						value 0 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Color"
+					{
+						name "Reflection_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Reflection_Value"
+					{
+						name "Reflection_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Color"
+					{
+						name "Refraction_Color"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Refraction_Value"
+					{
+						name "Refraction_Value"
+						value 1 0 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Bump"
+					{
+						name "Bump"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Displacement"
+					{
+						name "Displacement"
+						value 1 -10 10
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateDiffuse"
+					{
+						name "Alternate_Diffuse"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "AlternateSpecular"
+					{
+						name "Alternate_Specular"
+						value 1 1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionLiteMult"
+					{
+						name "Reflection_Lite_Mult"
+						value 1 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ReflectionKdMult"
+					{
+						name "Reflection_Kd_Mult"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "Gradient_Bump"
+					{
+						name "Gradient_Bump"
+						value 1 -1 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ShadowCatchOnly"
+					{
+						name "Shadow_Catch_Only"
+						value 0 0 1
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+					nodeInput "ToonID"
+					{
+						name "ToonID"
+						value 106 0 32768
+						parmR NO_PARM
+						parmG NO_PARM
+						parmB NO_PARM
+						node NO_NODE
+						file ""
+					}
+				}
+			}
+		}
+		displayMode USEPARENT
+		locked 0
+	}
+	setGeomHandlerOffset 0 0.3487 0
+}
